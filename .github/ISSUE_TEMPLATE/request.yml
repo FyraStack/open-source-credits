@@ -22,7 +22,7 @@ body:
       placeholder: "- https://terrapkg.com\n- https://github.com/terrapkg/packages"
     validations:
       required: true
-  - type: markdown
+  - type: input
     id: usage
     attributes:
       label: usage
