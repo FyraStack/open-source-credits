@@ -1,0 +1,35 @@
+name: Open Source Credit Request Digital Ocean Transfer
+description: Request free credits for your open source projects if you were affected by the Digital Ocean open source program shutdown!
+title: "[Open Source Credit Request] "
+labels: ["new"]
+type: application
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is for requesting free open source credits for your projects if you were affected by the Digital Ocean open source program being shut down
+  - type: input
+    id: name
+    attributes:
+      label: Name of the project
+    validations:
+      required: true
+  - type: source
+    id: description
+    attributes:
+      label: Source link
+      description: Please link the source code, and if you have one, a website.
+    validations:
+      required: true
+  - type: 
+    id: usage
+    attributes:
+      label: usage
+      description: Describe what you were using at Digital Ocean (ex. droplet count, specs, etc.).
+    validations:
+      required: true
+  - type:
+    id: more
+    attributes:
+      label: more
+      description: Please add any more information you'd like us to know
