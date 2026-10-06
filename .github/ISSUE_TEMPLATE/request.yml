@@ -41,3 +41,15 @@ body:
     attributes:
       label: More
       description: Elaborate on any information you think we should know.
+  - type: input
+    id: email
+    attributes:
+      label: What email should we use to contact you?
+      description: 'If you wish to keep your email private, please write "N/A" and email us your issue link to `oss@fyrastack.com`.'
+      placeholder: "you@example.com"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        If you're accepted, we ask that you add a small badge to your website/README.
