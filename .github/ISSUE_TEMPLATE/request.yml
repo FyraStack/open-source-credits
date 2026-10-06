@@ -7,30 +7,30 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue is for requesting free open source credits for your projects if you were affected by the Digital Ocean open source program being shut down
+        If you're affected by DigitalOcean shutting down their OSS credits program, apply here.
   - type: input
     id: name
     attributes:
-      label: Name of the project
+      label: Name of the Project
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
-      label: Source link
-      description: Please link the source code, and if you have one, a website.
+      label: Source Link
+      description: Please link the source code and/or website.
       placeholder: "- https://terrapkg.com\n- https://github.com/terrapkg/packages"
     validations:
       required: true
   - type: input
     id: usage
     attributes:
-      label: usage
-      description: Describe what you were using at Digital Ocean (ex. droplet count, specs, etc.).
+      label: Usage
+      description: Describe what you were using at DigitalOcean (ex. droplet count, specs, etc.).
     validations:
       required: true
   - type: textarea
     id: more
     attributes:
-      label: more
-      description: Please add any more information you'd like us to know
+      label: More
+      description: Elaborate on any information you think we should know.
