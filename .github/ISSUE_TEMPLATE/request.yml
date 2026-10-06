@@ -1,6 +1,6 @@
 name: Open Source Credit Request Digital Ocean Transfer
 description: Request free credits for your open source projects if you were affected by the Digital Ocean open source program shutdown!
-title: "[Open Source Credit Request] "
+title: "[OSCR] "
 labels: ["new"]
 type: application
 body:
@@ -14,21 +14,22 @@ body:
       label: Name of the project
     validations:
       required: true
-  - type: source
+  - type: textarea
     id: description
     attributes:
       label: Source link
       description: Please link the source code, and if you have one, a website.
+      placeholder: "- https://terrapkg.com\n- https://github.com/terrapkg/packages"
     validations:
       required: true
-  - type: 
+  - type: markdown
     id: usage
     attributes:
       label: usage
       description: Describe what you were using at Digital Ocean (ex. droplet count, specs, etc.).
     validations:
       required: true
-  - type:
+  - type: textarea
     id: more
     attributes:
       label: more
