@@ -3,6 +3,11 @@ description: Request free credits for your open source projects if you were affe
 title: "[OSCR] "
 labels: ["new"]
 type: application
+assignees:
+  - addidotlol
+  - lleyton
+  - Owen-sz
+  - Its-J
 body:
   - type: markdown
     attributes:
