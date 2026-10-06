@@ -23,10 +23,17 @@ body:
     validations:
       required: true
   - type: input
+    id: received
+    attributes:
+      label: How much did you receive from DigitalOcean?
+      placeholder: "ex. $60/year"
+    validations:
+      required: true
+  - type: textarea
     id: usage
     attributes:
       label: Usage
-      description: Describe what you were using at DigitalOcean (ex. droplet count, specs, etc.).
+      description: Describe what you were using at DigitalOcean (ex. droplet count, specs, etc.), along with what you used them for.
     validations:
       required: true
   - type: textarea
