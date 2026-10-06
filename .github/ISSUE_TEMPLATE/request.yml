@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If you're affected by DigitalOcean shutting down their OSS credits program, apply here.
+        If you're affected by DigitalOcean shutting down their OSS credits program, apply here. If you're accepted, we ask that you add a small badge to your website/README.
   - type: input
     id: name
     attributes:
@@ -49,7 +49,3 @@ body:
       placeholder: "you@example.com"
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        If you're accepted, we ask that you add a small badge to your website/README.
