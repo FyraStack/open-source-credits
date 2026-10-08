@@ -7,4 +7,4 @@
 
 Hello! If you're here for Fyra Stack credits for your open source project, you're in the right place!
 
-To apply, simply open the [Issues](https://github.com/FyraStack/open-source-credits/issues) tab and fill out one of the form templates. We'll try to get back to you as soon as we can.
+To apply, simply open the [Issues](https://github.com/FyraStack/open-source-credits/issues) tab and fill out one of the form templates. We will get back to you as soon as we can.
